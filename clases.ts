@@ -81,3 +81,14 @@ export class Peliculas {
         this.distribuidora = distribuidora;
     }
 }
+
+export class lemdebe {
+
+    peliculas:Object[]
+
+    constructor (peliculas:Object[]){
+
+
+    }
+
+}
