@@ -12,7 +12,18 @@ export class Peliculas {
     productora: string;
     distribuidora: string;
 
-
+    showPropertys(){
+        console.log("Título: " + this.titulo + "\n")
+        console.log("Año de estreno: " + this.anyoEstreno + "\n")
+        console.log("Actores: " + this.actores + "\n")
+        console.log("Nacionalidad: " + this.nacionalidad + "\n")
+        console.log("Director: " + this.director + "\n")
+        console.log("Idioma: " + this.idioma + "\n")
+        console.log("Es MCU: " + this.esMCU + "\n")
+        console.log("Nombre del protagonista: " + this.nombreProtagonista + "\n")
+        console.log("Productora: " + this.productora + "\n")
+        console.log("Distribuidora: " + this.distribuidora + "\n")
+    }
 
     constructor(titulo: string, anyoEstreno: number, nacionalidad: string) {
         this.titulo = titulo;
@@ -50,8 +61,8 @@ export class Peliculas {
     set setDistribuidora(distribuidora: string) {
         this.distribuidora = distribuidora;
     }
-
 }
+
 let pelicula1: Peliculas;
 pelicula1 = new Peliculas("Vengadores", 2012, "Estados Unidos")
 let pelicula2: Peliculas;
