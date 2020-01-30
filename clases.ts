@@ -8,12 +8,12 @@ export class Profesional {
     colorPelo:string;
     colorOjos:string;
     raza:string;
-    estaRetirado:boolean;
+    estaRetirado:string;
     nacionalidad:string;
     numeroDeOscars:number;
     profesion:string;
 
-    constructor (nombre:string, edad:number, sexo:string, peso:number, altura:number,colorPelo:string, colorOjos:string, raza:string, estaRetirado:boolean, nacionalidad:string, numeroDeOscars:number, profesion:string){
+    constructor (nombre:string, edad:number, sexo:string, peso:number, altura:number,colorPelo:string, colorOjos:string, raza:string, estaRetirado:string, nacionalidad:string, numeroDeOscars:number, profesion:string){
 
         this.nombre = nombre
         this.edad = edad
