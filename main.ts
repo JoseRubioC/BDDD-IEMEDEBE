@@ -1,4 +1,5 @@
-import {Profesional} from "./clases"
+import {Profesional} from "./profesionales"
+import {Peliculas} from "./peliculas"
 
 let actor1:Profesional;
 actor1 = new Profesional ("Brad Pitt", 56, "Masculino", 78, 180, "rubio", "azules", "caucásico", "no", "estadounidense", 1, "actor")
