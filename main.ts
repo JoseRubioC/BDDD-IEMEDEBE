@@ -12,3 +12,4 @@ let actor5:Profesional;
 actor5 = new Profesional ("Sean Penn", 59, "Masculino", 67, 173, "marron", "azules","caucásico", "no", "estadounidense", 2, "actor")
 let actor6:Profesional;
 actor6 = new Profesional ("Ellen Page", 32, "femenino", 56, 160, "rubio", "azules", "caucásica", "no",  "canadiense", 0, "actriz")
+
