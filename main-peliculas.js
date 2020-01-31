@@ -138,4 +138,8 @@ pelicula10.distribuidora = "Disney";
 var arrayPeliculas = [pelicula1, pelicula2, pelicula3, pelicula4, pelicula5, pelicula6, pelicula7, pelicula8, pelicula9, pelicula10];
 var iemedebe1;
 iemedebe1 = new iemedebe_1.Iemedebe(arrayPeliculas);
-iemedebe1.showIemedebe();
+// iemedebe1.showIemedebe()
+var myJSONIemedebe = JSON.stringify(iemedebe1);
+// console.log(myJSONIemedebe)
+var fs = require('fs');
+fs.writeFileSync('imdbBBDD.json', myJSONIemedebe, 'utf8');

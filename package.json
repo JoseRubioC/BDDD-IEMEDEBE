@@ -1,0 +1,22 @@
+{
+  "name": "bddd-iemedebe",
+  "version": "1.0.0",
+  "description": "Base de datos de cine",
+  "main": "main-peliculas.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseRubioC/BDDD-IEMEDEBE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseRubioC/BDDD-IEMEDEBE/issues"
+  },
+  "homepage": "https://github.com/JoseRubioC/BDDD-IEMEDEBE#readme",
+  "dependencies": {
+    "@types/node": "^13.5.3"
+  }
+}

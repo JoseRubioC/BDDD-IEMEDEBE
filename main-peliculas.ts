@@ -153,5 +153,14 @@ let iemedebe1: Iemedebe
 
 iemedebe1 = new Iemedebe(arrayPeliculas)
 
-iemedebe1.showIemedebe()
+// iemedebe1.showIemedebe()
+
+let myJSONIemedebe = JSON.stringify(iemedebe1)
+
+// console.log(myJSONIemedebe)
+
+const fs = require('fs');
+
+fs.writeFileSync('imdbBBDD.json', myJSONIemedebe,'utf8');
+
 
