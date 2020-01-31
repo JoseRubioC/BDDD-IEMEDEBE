@@ -1,8 +1,9 @@
+import { Peliculas } from "./peliculas"
 export class lemdebe {
 
-    peliculas:Object[]
+    peliculas: Peliculas[]
 
-    constructor (peliculas:Object[]){
+    constructor(peliculas: Peliculas[]) {
         this.peliculas = peliculas
     }
 

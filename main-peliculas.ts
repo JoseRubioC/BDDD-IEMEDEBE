@@ -22,10 +22,12 @@ director3 = new Profesional("Francis Ford Coppola", 80, "masculino", 85, 160, "c
 let director4: Profesional;
 director4 = new Profesional("Martin Scorsese", 77, "masculino", 80, 172, "cano", "azules", "caucásico", "no", "estadounidense", 1, "director")
 
+let arrayActores: Profesional[] = [actor1, actor2, actor3, actor4, actor5, actor6]
+
 let pelicula1: Peliculas;
 pelicula1 = new Peliculas("Vengadores", 2012, "Estados Unidos")
 pelicula1.director = director2
-pelicula1.actores = actor4
+pelicula1.actores = arrayActores
 pelicula1.guionista = actor6
 pelicula1.idioma = "Ingles"
 pelicula1.plataforma = "Cine"
@@ -34,10 +36,12 @@ pelicula1.nombreProtagonista = "Iron Man "
 pelicula1.productora = "Disney "
 pelicula1.distribuidora = "Disney "
 
+pelicula1.showPropertys()
+
 let pelicula2: Peliculas;
 pelicula2 = new Peliculas("American Beauty", 2000, "Estados unidos")
 pelicula2.director = director3
-pelicula2.actores = actor2
+pelicula2.actores = arrayActores
 pelicula2.guionista = director4
 pelicula2.idioma = " Ingles"
 pelicula2.plataforma = " Cine"
@@ -49,7 +53,7 @@ pelicula2.distribuidora = "Dream Works"
 let pelicula3: Peliculas;
 pelicula3 = new Peliculas("Rock'n rolla", 2009, "Reino unido")
 pelicula3.director = director1
-pelicula3.actores = actor3
+pelicula3.actores = arrayActores
 pelicula3.guionista = director2
 pelicula3.idioma = "Inges"
 pelicula3.plataforma = "Cine"
@@ -61,7 +65,7 @@ pelicula3.distribuidora = "Dark Castle Entertainment"
 let pelicula4: Peliculas;
 pelicula4 = new Peliculas("Mistic river", 2003, "Estados unidos")
 pelicula4.director = director3
-pelicula4.actores = actor2
+pelicula4.actores = arrayActores
 pelicula4.guionista = actor4
 pelicula4.idioma = "Ingles"
 pelicula4.plataforma = "Cine"
@@ -73,7 +77,7 @@ pelicula4.distribuidora = "Warner Bros."
 let pelicula5: Peliculas;
 pelicula5 = new Peliculas("Sin perdon ", 1992, "Estados Unidos")
 pelicula5.director = director2
-pelicula5.actores = actor6
+pelicula5.actores = arrayActores
 pelicula5.guionista = director2
 pelicula5.idioma = "Ingles"
 pelicula5.plataforma = "Cine"
@@ -85,7 +89,7 @@ pelicula5.distribuidora = "Malpaso Productions"
 let pelicula6: Peliculas;
 pelicula6 = new Peliculas("Terminator", 1985, "Estados unidos")
 pelicula6.director = director4
-pelicula6.actores = director1
+pelicula6.actores = arrayActores
 pelicula6.guionista = director1
 pelicula6.idioma = "Ingles"
 pelicula6.plataforma = "Cine"
@@ -97,7 +101,7 @@ pelicula6.distribuidora = "Metro Goldwyn Mayer"
 let pelicula7: Peliculas;
 pelicula7 = new Peliculas("Yo , yo mismo e Irene", 1985, "Estados unidos")
 pelicula7.director = director4
-pelicula7.actores = actor3
+pelicula7.actores = arrayActores
 pelicula7.guionista = director4
 pelicula7.idioma = "Ingles"
 pelicula7.plataforma = "Cine"
@@ -109,7 +113,7 @@ pelicula7.distribuidora = "	Paramount Pictures"
 let pelicula8: Peliculas;
 pelicula8 = new Peliculas("El show de Truman", 1998, "Estados unidos")
 pelicula8.director = director4
-pelicula8.actores = actor2
+pelicula8.actores = arrayActores
 pelicula8.guionista = director4
 pelicula8.idioma = "ingles"
 pelicula8.plataforma = "Cine"
@@ -121,7 +125,7 @@ pelicula8.distribuidora = "Paramount Pictures"
 let pelicula9: Peliculas;
 pelicula9 = new Peliculas("Star wars", 1977, "Una galaxia muy muy lejana")
 pelicula9.director = director4
-pelicula9.actores = actor1
+pelicula9.actores = arrayActores
 pelicula9.guionista = director3
 pelicula9.idioma = "Ingles"
 pelicula9.plataforma = "Cine"
@@ -133,11 +137,11 @@ pelicula9.distribuidora = "RSO Records"
 let pelicula10: Peliculas;
 pelicula10 = new Peliculas("Iron man", 2000, "Estados unidos")
 pelicula10.director = director1
-pelicula10.actores = actor3
+pelicula10.actores = arrayActores
 pelicula10.guionista = director1
 pelicula10.idioma = "Ingles"
 pelicula10.plataforma = "Cine"
 pelicula10.esMCU = "Si"
 pelicula10.nombreProtagonista = "Howard Stark"
-pelicula10.productora = " Disney"
-pelicula10.distribuidora = "Disney "
+pelicula10.productora = "Disney"
+pelicula10.distribuidora = "Disney"

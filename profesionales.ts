@@ -1,5 +1,4 @@
 export class Profesional {
-
     nombre: string;
     edad: number;
     sexo: string;
@@ -29,20 +28,7 @@ export class Profesional {
         this.profesion = profesion
     }
     mostrarProfesional() {
-        console.log("El nombre es: " + this.nombre + "\n" + "La edad es: " + this.edad + "\n")
-        console.log("La edad es: " + this.edad + "\n")
-        console.log("El sexo es: " + this.sexo + "\n")
-        console.log("El peso es: " + this.peso + "\n")
-        console.log("La altura  es: " + this.altura + "\n")
-        console.log("El color de pelo es: " + this.colorPelo + "\n")
-        console.log("El color de ojos es: " + this.colorOjos + "\n")
-        console.log("Su raza es la: " + this.raza + "\n")
-        console.log("Esta persona se encuentra retirado: " + this.estaRetirado + "\n")
-        console.log("Su nacionalidad es : " + this.nacionalidad + "\n")
-        console.log("El numero de Oscars es: " + this.numeroDeOscars + "\n")
-        console.log("Su profresion es: " + this.profesion + "\n")
-
-
+        console.log("El nombre es: " + this.nombre + "\n" + "La edad es: " + this.edad + "\n" + "El sexo es: " + this.sexo + "\n" + "El peso es: " + this.peso + "\n" + "La altura  es: " + this.altura + "\n" + "El color de pelo es: " + this.colorPelo + "\n" + "El color de ojos es: " + this.colorOjos + "\n" + "Su raza es: " + this.raza + "\n" + "Esta persona se encuentra retirado: " + this.estaRetirado + "\n" + "Su nacionalidad es : " + this.nacionalidad + "\n" + "El numero de Oscars es: " + this.numeroDeOscars + "\n" + "Su profesion es: " + this.profesion + "\n")
     }
 }
 
