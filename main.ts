@@ -93,6 +93,7 @@ pelicula6.esMCU = "no"
 pelicula6.nombreProtagonista = "Hasta la vista Baby"
 pelicula6.productora = "Hemdale Film"
 pelicula6.distribuidora = "Metro Goldwyn Mayer"
+
 let pelicula7: Peliculas;
 pelicula7 = new Peliculas("Yo , yo mismo e Irene", 1985, "Estados unidos")
 pelicula7.director = director4
@@ -104,6 +105,7 @@ pelicula7.esMCU = " No"
 pelicula7.nombreProtagonista = "Charlie"
 pelicula7.productora = "20th Century Studios"
 pelicula7.distribuidora = "	Paramount Pictures"
+
 let pelicula8: Peliculas;
 pelicula8 = new Peliculas("El show de Truman", 1998, "Estados unidos")
 pelicula8.director = director4
@@ -115,6 +117,7 @@ pelicula8.esMCU = "no"
 pelicula8.nombreProtagonista = "Truman"
 pelicula8.productora = "Scott Rudin Productions"
 pelicula8.distribuidora = "Paramount Pictures"
+
 let pelicula9: Peliculas;
 pelicula9 = new Peliculas("Star wars", 1977, "Una galaxia muy muy lejana")
 pelicula9.director = director4
@@ -126,6 +129,7 @@ pelicula9.esMCU = "No "
 pelicula9.nombreProtagonista = "Luke Skywalker"
 pelicula9.productora = "LucastFilm"
 pelicula9.distribuidora = "RSO Records"
+
 let pelicula10: Peliculas;
 pelicula10 = new Peliculas("Iron man", 2000, "Estados unidos")
 pelicula10.director = director1
