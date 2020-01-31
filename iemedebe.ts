@@ -1,9 +1,15 @@
-export class lemdebe {
+import { Peliculas } from "./peliculas"
 
-    peliculas:Object[]
+export class Iemedebe {
+    peliculas:Peliculas[]
 
-    constructor (peliculas:Object[]){
+    constructor (peliculas:Peliculas[]){
         this.peliculas = peliculas
     }
 
+    showIemedebe(){
+        for (let i = 0; i < this.peliculas.length; i++) {
+            this.peliculas[i].showPropertys()
+        }
+    }
 }

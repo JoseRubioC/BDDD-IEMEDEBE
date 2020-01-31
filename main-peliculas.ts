@@ -1,5 +1,6 @@
 import { Profesional } from "./profesionales"
 import { Peliculas } from "./peliculas"
+import { Iemedebe } from "./iemedebe";
 
 let actor1: Profesional;
 actor1 = new Profesional("Brad Pitt", 56, "Masculino", 78, 180, "rubio", "azules", "caucásico", "no", "estadounidense", 1, "actor")
@@ -36,7 +37,7 @@ pelicula1.nombreProtagonista = "Iron Man "
 pelicula1.productora = "Disney "
 pelicula1.distribuidora = "Disney "
 
-pelicula1.showPropertys()
+// pelicula1.showPropertys()
 
 let pelicula2: Peliculas;
 pelicula2 = new Peliculas("American Beauty", 2000, "Estados unidos")
@@ -145,3 +146,12 @@ pelicula10.esMCU = "Si"
 pelicula10.nombreProtagonista = "Howard Stark"
 pelicula10.productora = "Disney"
 pelicula10.distribuidora = "Disney"
+
+let arrayPeliculas:Peliculas[] = [pelicula1, pelicula2, pelicula3, pelicula4, pelicula5, pelicula6, pelicula7, pelicula8, pelicula9, pelicula10]
+
+let iemedebe1: Iemedebe
+
+iemedebe1 = new Iemedebe(arrayPeliculas)
+
+iemedebe1.showIemedebe()
+
